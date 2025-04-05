@@ -39,7 +39,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - if: ${{ matrix.npm }}
-        run: npm instal -g npm@${{ matrix.nom }}
+        run: npm instal -g npm@${{ matrix.npm }}
 
       - run: npm --version 
 
